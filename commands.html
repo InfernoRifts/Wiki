@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Commands — Infernorifts Wiki</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="brand">
+                <svg class="logo" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <defs>
+                        <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                            <stop offset="0%" stop-color="#ff7a18"/>
+                            <stop offset="50%" stop-color="#ff3d67"/>
+                            <stop offset="100%" stop-color="#7b2ff7"/>
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#g)" d="M32 6c-1 6-7 9-7 18 0 8 7 14 7 14s7-6 7-14c0-9-6-12-7-18z M22 38c-3 3-4 7-4 11 0 6 9 9 14 9s14-3 14-9c0-4-1-8-4-11-5 4-15 4-20 0z"/>
+                </svg>
+                <h1 class="server-name">Commands</h1>
+            </div>
+            <p class="tagline">A quick reference for useful server commands</p>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="getting-started.html">Getting Started</a>
+        <a href="server-rules.html">Server Rules</a>
+        <a href="faq-pages/faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="commands.html" class="active">Commands</a>
+    </nav>
+
+    <main class="container">
+        <h2>Command List</h2>
+        <p>Quick reference of available server commands organised by category.</p>
+
+        <nav class="toc" aria-label="Commands table of contents">
+            <strong>Contents</strong>
+            <ul>
+                <li><a href="#basics">Basics</a></li>
+                <li><a href="#warps">Warps</a></li>
+                <li><a href="#lands">Lands &amp; Homes</a></li>
+                <li><a href="#economy">Economy &amp; Shops</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#fishing">Fishing</a></li>
+                <li><a href="#custom-enchanting">Custom Enchanting</a></li>
+                <li><a href="#custom-pets">Custom Pets</a></li>
+            </ul>
+        </nav>
+
+        <section id="basics">
+            <h3>Basics</h3>
+            <ul>
+                <li><code>/help</code> – opens help menu</li>
+                <li><code>/rules</code> – displays server rules</li>
+                <li><code>/discord</code> – displays the server's Discord link</li>
+                <li><code>/geyser offhand</code> – offhand command for bedrock players</li>
+                <li><code>/sb</code> – toggle sideboard / stats off or on</li>
+                <li><code>/envoy ignore</code> – temporarily turns off envoy messages</li>
+                <li><code>/pv</code> – opens basic player vaults menu</li>
+                <li><code>/pv (number)</code> – open specific vault</li>
+                <li><code>/skills</code> – opens your Auraskills menu</li>
+                <li><code>/hopper list</code> – displays all upgradeable hoppers</li>
+                <li><code>/as</code> – opens customization menu when looking at an armor stand</li>
+                <li><code>/statistic (name) top</code> – shows top players for a statistic</li>
+            </ul>
+        </section>
+
+        <section id="warps">
+            <h3>Warps</h3>
+            <ul>
+                <li><code>/spawn</code> – warp to spawn</li>
+                <li><code>/rtp</code> – random teleport in the wild</li>
+                <li><code>/back</code> – return to your previous location</li>
+                <li><code>/warps</code> – list available warps</li>
+                <li><code>/warp crates</code> – warp to key crates</li>
+                <li><code>/warp monthlycrate</code> – warp to featured key crate</li>
+                <li><code>/warp npc</code> – warp to spawn NPC room</li>
+                <li><code>/warp envoy</code> – warp to Envoy game</li>
+                <li><code>/warp Fish</code> – warp to spawn fishing area</li>
+                <li><code>/warp library</code> – warp to library / AFK pool area</li>
+                <li><code>/warp playershop</code> – warp to playershop area</li>
+                <li><code>/warp chapel</code> – warp to wedding chapel</li>
+                <li><code>/warp EndFarm</code> – warp to public End Experience Farm</li>
+                <li><code>/warp EndPortalRoom</code> – warp to public End Portal</li>
+                <li><code>/warp pillars</code> – warp to Pillars minigame room</li>
+            </ul>
+
+            <h4>Player Warps</h4>
+            <ul>
+                <li><code>/pwarps</code> – opens public player warps menu</li>
+                <li><code>/pwarp go (name)</code> – warp to a playerwarp</li>
+                <li><code>/pwarp create (name)</code> – create a new playerwarp</li>
+                <li><code>/pwarp delete (name)</code> – delete a playerwarp</li>
+                <li><code>/pwarp info (name)</code> – show info for a playerwarp</li>
+                <li><code>/pwarp edit (name)</code> – open edit menu for your playerwarp</li>
+            </ul>
+        </section>
+
+        <section id="lands">
+            <h3>Lands &amp; Homes</h3>
+            <ul>
+                <li><code>/sethome (name)</code> – create a home</li>
+                <li><code>/delhome (name)</code> – delete a home</li>
+                <li><code>/home (name)</code> – teleport to a named home</li>
+                <li><code>/home</code> – teleport to basic home (if you have only one)</li>
+                <li><code>/lands help</code> – open lands help menu</li>
+                <li><code>/lands create (name)</code> – create a new claim</li>
+                <li><code>/lands edit (landname)</code> – edit the specified land</li>
+                <li><code>/lands rename (newname)</code> – rename your land</li>
+                <li><code>/lands claim</code> – claim another chunk</li>
+                <li><code>/lands claim auto</code> – toggle auto-claim while walking</li>
+                <li><code>/lands delete (landname)</code> – delete a land claim</li>
+                <li><code>/lands view</code> – show border particles</li>
+                <li><code>/lands trust (playername)</code> – trust a player to your claim</li>
+                <li><code>/lands accept</code> – accept a trust invite</li>
+                <li><code>/lands invites</code> – view current land invites</li>
+                <li><code>/lands balance (landname)</code> – show land bank balance</li>
+                <li><code>/lands deposit (amount/all) (landname)</code> – deposit money into a land's bank</li>
+            </ul>
+        </section>
+
+        <section id="economy">
+            <h3>Economy &amp; Shops</h3>
+            <ul>
+                <li><code>/keyshop</code> – open crate key shop</li>
+                <li><code>/utilshop</code> – open utility shop (farm minions, hoppers)</li>
+                <li><code>/shop</code> – open server shop</li>
+                <li><code>/sellgui</code> – open sell window</li>
+                <li><code>/sellall inventory</code> – sell all items in inventory</li>
+                <li><code>/sellall hand</code> – sell items in main hand</li>
+                <li><code>/sellall (item name)</code> – sell all items by name</li>
+                <li><code>/ah</code> – open auction house</li>
+                <li><code>/ah sell (price)</code> – place item in hand on auction</li>
+                <li><code>/ah sellinventory (price)</code> – list multiple items on auction</li>
+                <li><code>/qs help</code> – QuickShop help menu</li>
+                <li><code>/qs create (price)</code> – create a QuickShop from a barrel</li>
+                <li><code>/qs remove</code> – delete a QuickShop</li>
+                <li><code>/qs sell</code> – change barrel shop to sell shop</li>
+                <li><code>/qs buy</code> – change barrel shop to buy shop</li>
+                <li><code>/qs price</code> – change price for barrel shop</li>
+                <li><code>/qs item</code> – change item sold by the barrel shop</li>
+                <li><code>/qs history</code> – view shop transaction history</li>
+                <li><code>/qs sign (sign type)</code> – change shop sign material</li>
+                <li><code>/qs find</code> – locate nearby shops</li>
+                <li><code>/qs fetchmessage</code> – show unread shop messages</li>
+            </ul>
+        </section>
+
+        <section id="jobs">
+            <h3>Jobs</h3>
+            <ul>
+                <li><code>/jobs browse</code> – open jobs menu</li>
+                <li><code>/jobs join (job name)</code> – join a job</li>
+                <li><code>/jobs leave (job name)</code> – leave a job</li>
+                <li><code>/jobs leaveall</code> – leave all jobs</li>
+                <li><code>/jobs quests</code> – open daily quests menu</li>
+                <li><code>/jobs archive</code> – show your jobs and levels</li>
+                <li><code>/jobs info (jobname) (action)</code> – money & exp details for a job action</li>
+                <li><code>/jobs top (jobname)</code> – show top players in a job</li>
+            </ul>
+        </section>
+
+        <section id="fishing">
+            <h3>Fishing</h3>
+            <ul>
+                <li><code>/fish menu</code> – open fishing menu</li>
+                <li><code>/fish stats</code> – open fishing stats</li>
+                <li><code>/fish shop</code> – open menu to sell fish</li>
+                <li><code>/fish codex</code> – show all fish available</li>
+                <li><code>/baitshop</code> – open bait/lures shop</li>
+                <li><code>/augshop</code> – open augment shop</li>
+            </ul>
+        </section>
+
+        <section id="custom-enchanting">
+            <h3>Custom Enchanting</h3>
+            <ul>
+                <li><code>/ce</code> – open main custom enchanting menu</li>
+                <li><code>/ae list</code> – list custom enchants</li>
+                <li><code>/tinkerer</code> – trade CE books for dust</li>
+                <li><code>/alchemist</code> – combine two CE books</li>
+            </ul>
+        </section>
+
+        <section id="custom-pets">
+            <h3>Custom Pets</h3>
+            <ul>
+                <li><code>/pets</code> – opens pets main menu</li>
+                <li><code>/pets revoke</code> – revoke your current pet</li>
+            </ul>
+        </section>
+
+        <p class="small">If anything looks incorrect or you'd like additional examples, tell us and we'll update the page.</p>
+    </main>
+
+    <footer>
+        &copy; 2025 Infernorifts. All rights reserved.
+    </footer>
+</body>
+</html>

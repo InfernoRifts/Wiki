@@ -1,0 +1,68 @@
+generators:
+  Diamond:
+    block: DIAMOND_BLOCK
+    items:
+      - item: DIAMOND
+        amount: 1
+        chance: 50.0
+      - item: EMERALD
+        amount: 1
+        chance: 50.0
+    interval: 60  # seconds between generations
+    permission: itemgen.use.diamond
+    recipe:
+      shape:
+        - 'GGG'
+        - 'GDG'
+        - 'GGG'
+      ingredients:
+        G: GOLD_INGOT
+        D: DIAMOND
+  Iron:
+    block: IRON_BLOCK
+    items:
+      - item: IRON_INGOT
+        amount: 5
+        chance: 100.0
+    interval: 30
+    permission: itemgen.use.iron
+    recipe:
+      shape:
+        - 'III'
+        - 'ISI'
+        - 'III'
+      ingredients:
+        I: IRON_INGOT
+        S: STONE
+  Gold:
+    block: GOLD_BLOCK
+    items:
+      - item: GOLD_INGOT
+        amount: 1
+        chance: 100.0
+    interval: 30
+    permission: itemgen.use.gold
+    recipe:
+      shape:
+        - 'GGG'
+        - 'GAG'
+        - 'GGG'
+      ingredients:
+        G: GOLD_BLOCK
+        A: REDSTONE_BLOCK
+  SugarCane:
+    block: SUGAR_CANE
+    items:
+      - item: SUGAR_CANE
+        amount: 3
+        chance: 100.0
+    interval: 20
+    permission: itemgen.use.sugarcane
+    recipe:
+      shape:
+        - 'HHH'
+        - 'HSH'
+        - 'HHH'
+      ingredients:
+        H: REDSTONE_BLOCK
+        S: SUGAR_CANE
