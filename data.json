@@ -1,0 +1,23 @@
+{
+  "facts": [
+    "Infernorifts is a Minecraft community server with guides, features and support available on the wiki.",
+    "By default players can hold up to 3 jobs at a time on Infernorifts.",
+    "Upgradeable Hoppers let players remotely collect items and configure filters (see the FAQ for details).",
+    "Players can open the Jobs menu with /jobs browse and view daily quests via /jobs quests.",
+    "For disputes or refunds, email infernoriftsmc@gmail.com or open a Discord support ticket for game issues.",
+    "The FAQ and help pages (Getting Started, Commands, Server Rules) are available at the wiki for newcomers."
+  ],
+  "join": {
+    "java": { "ip": "play.infernorifts.com", "port": 25565 },
+    "bedrock": { "ip": "play.infernorifts.com", "port": 25565 },
+    "console": { "realmCode": "YtF2cfjBwBJRkSE" }
+  },
+  "faqs": {
+    "how do i join the server?": "Java / Bedrock: connect to play.infernorifts.com (port 25565). Console players can use the Realm Code YtF2cfjBwBJRkSE.",
+    "where do i report a problem or open a support ticket?": "Open a support ticket in the Discord server (https://discord.gg/5hTuD7UknX) for any game-related questions — email infernoriftsmc@gmail.com for disputes/refunds.",
+    "what are jobs and daily quests?": "Jobs are a source of in-game income. Use /jobs browse to view and join jobs. After joining, daily quests for the job become available (use /jobs quests).",
+    "how do i get crate keys?": "You can earn or purchase crate keys from the server via gameplay, events, or the key shop. Refer to the Crates FAQ page for more details.",
+    "where can i find commands?": "Use the Commands page on the wiki (commands.html) for a categorized list of available server commands.",
+    "what are upgradeable hoppers?": "Upgradeable Hoppers are remote collectors that can be purchased in the Utilities shop (/utilshop) — see the Upgradeable Hoppers FAQ for usage and limits."
+  }
+}
